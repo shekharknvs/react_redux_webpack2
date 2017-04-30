@@ -1,0 +1,6 @@
+import { Count } from './count';
+import { combineReducers } from 'redux'
+
+export default combineReducers({
+    count:Count
+});
